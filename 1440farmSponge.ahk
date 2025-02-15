@@ -2,19 +2,19 @@ global toggle := 0  ; Initialize the global toggle variable at the start
 
 F6::
   toggle := !toggle  ; Toggle the value of the toggle variable (0 -> 1, 1 -> 0)
-  
+
   while toggle {
-    Send, {3}  ; Send the "3" key
+    Send, {1}  ; Send the "3" key
     Sleep, 100
-    Click, 1500, 850
+    Click, 2000, 1133
     Sleep, 100
-    Click, 1000, 780
+    Click, 1333, 1040
     Sleep, 100
-    Send, {2}  ; Send the "2" key
+    Send, {3}  ; Send the "2" key
     Sleep, 100
-    Click, 1600, 950
-    Sleep, 100
-    Click, 1200, 880
+    Click, 2133, 1267
+    Sleep,111 100
+    Click, 1600, 1173
     Sleep, 100
   }
 return
