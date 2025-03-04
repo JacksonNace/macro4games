@@ -4,7 +4,7 @@ F6::
   toggle := !toggle  ; Toggle the value of the toggle variable (0 -> 1, 1 -> 0)
   
   while toggle {
-    SendInput 1
+    SendInput 2
     Click, 900, 780
     Sleep, 10
     SendInput 4
@@ -14,6 +14,7 @@ F6::
     Sleep, 10
     SendInput 6
     Click, 1400, 675
+    SendInput q
     Click, 1420, 820
   }
 return
